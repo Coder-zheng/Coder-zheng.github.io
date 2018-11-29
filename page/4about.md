@@ -13,7 +13,7 @@ type: page
 ------
 
 - 手机：15510369979
-- Email：cqmyg14ds2@gmail.com
+- Email：[cqmyg14ds2@gmail.com](cqmyg14ds2@gmail.com)
 - 微信：15510369979
 
 ## 个人信息
@@ -22,8 +22,8 @@ type: page
 
 - 郑俊领/男/1991.04.28
 - 本科/济南大学泉城学院计算机专业/英语六级
-- 技术博客：https://coder-zheng.github.io/
-- Github：https://github.com/Coder-zheng
+- 技术博客：[https://coder-zheng.github.io/](https://coder-zheng.github.io/)
+- Github：[https://github.com/Coder-zheng](https://github.com/Coder-zheng)
 - 期望职位：区块链开发工程师/Golang开发工程师/Android开发工程师（区块链开发为首选）
 - 期望城市：北京
 
@@ -33,15 +33,15 @@ type: page
 
 ### 久康国际健康股份有限公司（2016年7月~2018年11月）
 
+[http://www.jiukangguoji.cn/](http://www.jiukangguoji.cn/)
+
 ### 9K患者微筹项目
 
 一款基于以太坊开发的Dapp，
 
 ### 9K医生医生端app
 
-### 9K医生患者端app
-
-###  
+### 9K医生患者端app 
 
 ### 北京竞技时代科技有限公司（2015年7月~2016年7月）
 
