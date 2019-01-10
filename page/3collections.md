@@ -8,288 +8,240 @@ type: page
 
 * content
 {:toc}
+# Github 优秀开源库
 
-## 工具
+## 一个简单、快速、有趣的包用来用Go构建命令行应用程序
 
-* [box-shadow generator](http://www.cssmatic.com/box-shadow)
+* [urfave/cli](https://github.com/urfave/cli)
 
-    生成 box-shadow 的工具。
+## 使用 Go 與以太坊區塊鏈互動
 
-* [gradient-generator](http://www.cssmatic.com/gradient-generator)
+* [Test the usage of ethclient in go](https://github.com/sc0vu/go-eth)
 
-    渐变生成器。
+## 图像开发
 
-* [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
+* [lorca](https://github.com/zserge/lorca?utm_source=gold_browser_extension)
 
-    也是渐变生成器
+  ![counter](https://ws3.sinaimg.cn/large/006tNbRwly1fxt9wv6f8rg30du08tq7i.gif)
 
-* [CSS Generators -CSSREFLEX](http://www.cssreflex.com/css-generators/)
+  A very small library to build modern HTML5 desktop apps in Go.
 
-    CSS3 生成器
+* [fyne](https://github.com/fyne-io/examples/)
 
-- [tiny png](https://tinypng.com/)
+* [glot](https://github.com/Arafatk/glot)
 
-    用于压缩 png 或 jpg 的在线工具
+## 游戏
 
-* [图床 https://sm.ms/](https://sm.ms/)
+* [GoBoy](https://github.com/Humpheh/goboy)
 
-    有 API 可用。
+  ![pkmn-tcg](https://ws1.sinaimg.cn/large/006tNbRwly1fxt9zvyj0ej30ve0u078i.jpg)
 
-* [新浪微博图床 Chrome扩展](https://github.com/Suxiaogang/WeiboPicBed)
+  ​	Multi-platform Nintendo Game Boy Color emulator written in Go
 
-* [Unix 时间戳 Unix timestamp](http://tool.chinaz.com/Tools/unixtime.aspx)
+## 命令行工具
 
-- [在线正则表达式匹配](https://regex101.com/)
-    - 这个功能更强大一点，能清楚的区分出贪婪和懒惰正则。
-- [http://regexr.com/](http://regexr.com/)
-- [google fonts](https://fonts.google.com/)
-  - [Google Fonts 加速代理](https://fengmk2.com/blog/2016/google-fonts-mirror)
+* [aminal](https://github.com/liamg/aminal?utm_source=gold_browser_extension)
 
-## 编程语言
+  ![demo](https://ws1.sinaimg.cn/large/006tNbRwly1fxta527sj1g30nt0iskdk.gif)
 
-### JavaScript
+  Aminal is a modern terminal emulator for Mac/Linux implemented in Golang and utilising OpenGL.
 
-* [JavaScript 标准参考教程（alpha） -阮一峰](http://javascript.ruanyifeng.com/)
+* [**cobra**](https://github.com/spf13/cobra)
 
-* [JavaScript Promise迷你书 -azu](http://liubin.org/promises-book/)
+  ![image-20181225170840715](https://ws4.sinaimg.cn/large/006tNbRwly1fyj3s9g94sj31g20iqjzl.jpg)
 
-* [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
+  A Commander for modern Go CLI interactions
 
-* [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)
+* [**go-flags**](https://github.com/jessevdk/go-flags)
 
-    前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。
+  go command line option parser 
 
-- [YOU MIGHT NOT NEED JQUERY PLUGINS](http://youmightnotneedjqueryplugins.com/)
+* 
 
-* [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+## HTTP
 
-* [JavaScript 设计模式 系列 AlloyTeam](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
+[httprouter](https://github.com/julienschmidt/httprouter)
 
-### ES2015
+# 缓存
 
-- [https://tc39.github.io/ecma262/](https://tc39.github.io/ecma262/)
-* [http://www.ecma-international.org/ecma-262/6.0/](http://www.ecma-international.org/ecma-262/6.0/)
+[go-cache](https://github.com/patrickmn/go-cache/blob/master/README.md)
 
-    ES2015规范
+## 数据库
 
-- [http://es6katas.org/](http://es6katas.org/)
+[**prometheus**](https://github.com/prometheus/prometheus)
 
-    Learn ES6 by doing it. Fix failing tests. Keep all learnings.
+The Prometheus monitoring system and time series database. <https://prometheus.io/>
 
-* [30分钟掌握ES6/ES2015核心内容（上）](http://segmentfault.com/a/1190000004365693)
+# BOLTDB
 
-* [30分钟掌握ES6/ES2015核心内容（下）](http://segmentfault.com/a/1190000004368132)
+[oceanken](https://www.jianshu.com/p/b86a69892990?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
-* [《ECMAScript 6入门》 -阮一峰](https://github.com/ruanyf/es6tutorial)
+## Logger
 
-* [EcmaScript6 全规范（含node） -ouvens](https://github.com/ouvens/es6-code-style-guide)
+[logrus](https://github.com/sirupsen/logrus)
 
-### NodeJS
+Structured, pluggable logging for Go.
 
-* [七天学会NodeJS -Nanqiao Deng](https://nqdeng.github.io/7-days-nodejs)
+## Format
 
-## 框架&脚手架
+[**go-humanize**](https://github.com/dustin/go-humanize)
 
-### webpack
+[table]https://github.com/modood/table
 
-* [Webpack 中文指南 -赵达](https://www.gitbook.com/book/zhaoda/webpack/details)
+# MAC
 
-* [Webpack傻瓜式指南（一） -前端外刊评论 知乎专栏](http://zhuanlan.zhihu.com/FrontendMagazine/20367175)
+[xclient](https://xclient.info/)
 
-* [Webpack傻瓜指南（二）开发和部署技巧 -前端外刊评论 知乎专栏](http://zhuanlan.zhihu.com/FrontendMagazine/20397902)
+# GO 资料
 
-* [Webpack傻瓜指南（三）和React配合开发 -前端外刊评论 知乎专栏](http://zhuanlan.zhihu.com/FrontendMagazine/20522487)
+[青云](https://www.kancloud.cn/itfanr/go-by-example/81679)
 
-    上述傻瓜指南的原始出处 [https://github.com/vikingmute/webpack-for-fools](https://github.com/vikingmute/webpack-for-fools) Webpack傻瓜式指南
+[go设计模式](https://github.com/svett/golang-design-patterns/tree/master/creational-patterns/singleton)
 
-* [Webpack，101入门体验 -Yika](http://www.html-js.com/article/3009)
+[鸟窝-Go](https://colobu.com/)
 
-* [Webpack 入门指迷 -题叶](https://segmentfault.com/a/1190000002551952)
+[一蓑烟雨1989-Go](https://blog.csdn.net/wangshubo1989)
 
-* [https://webpack.github.io/ Webpack 官网](https://webpack.github.io/)
+[go笔记](https://www.golangnote.com/topic/81.html)
 
+[90design-Go](https://my.oschina.net/90design?tab=newest&catalogId=3803531)
 
-### Vue
+[go指南](https://www.kancloud.cn/kancloud/the-way-to-go/72504)
 
-* [awesome-vue](https://github.com/vuejs/awesome-vue)
-* [Vue.js 和 Webpack（一） -Randy Lu](http://djyde.github.io/2015/08/29/vuejs-and-webpack-1/)
-* [Vue.js 和 Webpack（二） -Randy Lu](http://djyde.github.io/2015/08/30/vuejs-and-webpack-2/)
-* [Vue.js 和 Webpack（三） -Randy Lu](http://djyde.github.io/2015/08/31/vuejs-and-webpack-3/)
-* [Vuejs 1.0 中文系列视频教程 -Laravist](https://laravist.com/series/vue-js-1-0-in-action-series)
-* [Vuejs-QQ群 相关资料](https://github.com/jsfront/src/blob/master/vuejs.md) 来自豪情
+[飞雪无情](https://www.flysnow.org/)
 
+[输出格式化](https://www.jianshu.com/p/8be8d36e779c)
 
-### React
+[茶歇驿站](https://maiyang.me/)
 
-* [深入理解 React -Thinking in React 中文版](http://reactjs.cn/react/docs/thinking-in-react.html)
-* [Thinking in React](http://facebook.github.io/react/docs/thinking-in-react.html)
+## P2P
 
-### AngularJS
+[馬克](https://zfly9.blogspot.com/)
 
-- [学习AngularJS 1.x -Harry<harry@andtoo.net>](https://hairui219.gitbooks.io/learning_angular/content/zh/index.html)
+# Bittorrent
 
-    本书是作者 [Harry](https://github.com/hairui219) 在学习和应用AngularJS 1.x 的过程中的资料梳理。希望能对大家学习AngularJS有一定帮助……
+[org](http://bittorrent.org/index.html)
 
-* [AngularJS api 官网](https://docs.angularjs.org/api)
+[bittorrent](https://github.com/bittorrent)
 
-* [AngularJS入门教程——AngularJS中文社区提供](https://github.com/zensh/AngularjsTutorial_cn)
+[[BT 增强建议](https://0ranga.com/2018/11/12/bt-dht/)](https://0ranga.com/index.html)
 
-* [AngularJS 教程 \| 菜鸟教程](http://www.runoob.com/angularjs/angularjs-tutorial.html)
+# Tracker
 
-    类似 w3school 的入门 AngularJS 教程。
+[**trackerslist**](https://github.com/ngosang/trackerslist)
 
-### 测试
+[Bolt](http://boltdb.cn/)
 
-* [测试框架 Mocha 实例教程 阮一峰](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
+# YAML
 
-## 类库与插件
+[廖雪峰][http://www.ruanyifeng.com/blog/2016/07/yaml.html]
 
-* [Masonry](http://masonry.desandro.com/)
+# 共识
 
-    瀑布流布局库。
+[**dpos-pbft**](https://github.com/septemhill/dpos-pbft)
 
-* [jssor](http://www.jssor.com/)
+# 比特币
 
-    图片轮播图其 GitHub 地址 [jssor/slider](https://github.com/jssor/slider)
+[golang实现比特币](https://github.com/Jeiwan/blockchain_go)
 
-* [cssslider](http://cssslider.com/)
+# 钱包
 
-    纯 CSS 的图片轮播图。
+[IMtoken开源钱包](https://github.com/consenlabs)
 
-- [gumshoe](https://github.com/cferdinandi/gumshoe)
+# 以太坊资料
 
-    A simple, framework-agnostic scrollspy script.
+[精通以太坊 （中文版）](https://github.com/inoutcode/ethereum_book)
 
-- [smooth-scroll](https://github.com/cferdinandi/smooth-scroll)
+[源码分析](https://blog.csdn.net/teaspring/article/details/78350888)
 
-  A simple vanilla JS script to animate scrolling to anchor links.
+[使用 Go 與以太坊區塊鏈互動](https://medium.com/taipei-ethereum-meetup/%E4%BD%BF%E7%94%A8-go-%E8%88%87%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%8D%80%E5%A1%8A%E9%8F%88%E4%BA%92%E5%8B%95-a4a6cee256f2)
 
-## 模块化
+[官方JSON-RPC-API](https://ethereumbuilders.gitbooks.io/guide/content/en/ethereum_json_rpc.html)
 
-* [后端程序员的 JavaScript 之旅 - 模块化（一）](http://lishaopeng.com/2016/02/05/js-module/)
-* [后端程序员的 JavaScript 之旅 - 模块化（二）](http://lishaopeng.com/2016/02/11/js-module2/)
-* [后端程序员的 JavaScript 之旅 - 模块化（三）](http://lishaopeng.com/2016/02/19/js-module3/)
+[朱智胜](https://blog.csdn.net/wo541075754/article/details/53953933)
 
-* [CommonJS 规范 -来自 阮一峰 JavaScript 标准参考教程(alpha)](http://javascript.ruanyifeng.com/nodejs/module.html)
+[修改web3](https://www.jianshu.com/p/bb6a75b26a54?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
-## other articles
+[简述以太坊源码系列](https://www.jianshu.com/u/5821743d07b1)
 
-- [<head> Cheat Sheet](http://gethead.info/)
-* [将footer固定在页面底部的实现方法](https://segmentfault.com/a/1190000004453249)
-- [HTML5 视频 By Pete LePage](https://www.html5rocks.com/zh/tutorials/video/basics/)
+[以太坊github源码分析](https://github.com/ZtesoftCS/go-ethereum-code-analysis)
 
-## 编辑器
+[尹成以太坊源码分析](https://blog.csdn.net/itcastcpp/articl)
 
-### Atom 中常用插件
+[以太坊源码系列](https://blog.csdn.net/teaspring/article/list/1?t=1)
 
-* auto-beautify
-* autoprefixer
-* block-comment
-* color-picker
-* docblockr
-* emmet
-* jquery-snippets
-* jshint
-* linter
-* linter-csslint
-* linter-htmlhint
-* minimap
-* minimap-git-diff
-* minimap-codeglance 滑过 minimap 显示代码
-* minimap-find-and-replace 在 minimap 中显示 `ctrl+D` 选中的内容
-* open-in-browser
-* uglify
-* active-power-mode
-* atom-terminal-panel
-* linter-scss-linter
-* atom-ternjs
-* file-icons 将图标变成彩色
-* autocomplete-paths 自动补充路径
-* symbols-tree-view A symbol treeview like taglist
+[远航以太坊分析](http://blog.luoyuanhang.com/)
 
-常用的主题：
+[孔一](http://liyuechun.org/2017/10/11/solidity-contract-0019/)
 
-UI Theme: One Dark
+# 以太坊工具
 
-Syntax Theme: Atom Dark or One Dark
+[以太坊浏览器](https://www.etherchain.org/)
 
-## GitBook 及其插件
+[以太坊浏览器 中文](https://etherscan.io/block/)
 
-* [Gitbook 的使用和常用插件 -赵达](http://zhaoda.net/2015/11/09/gitbook-plugins/)
-* [gitbook-plugin-expandable-chapters](https://plugins.gitbook.com/plugin/expandable-chapters)
+[以太坊网络状态](https://ethstats.net/)
 
-    折叠左侧目录章节。
+# Fabric
 
-    <!-- ![](http://ww4.sinaimg.cn/large/7011d6cfjw1f08kmplbj1j20gn05l0tk.jpg) -->
+[梧桐树](http://wutongtree.github.io/translations/Next-Consensus-Architecture-Proposal_zh)
 
-## Chrome 插件
-- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
+[尹成-超级账本-以太坊](https://blog.csdn.net/itcastcpp/article)
 
-    - Code tree for GitHub and GitLab
+# EOS
 
-* [Chrome扩展及应用开发 -图灵电子书](http://www.ituring.com.cn/minibook/950)
+[EOS.IO Go API library](https://github.com/eoscanada/eos-go)
 
-* [有哪些鲜为人知却非常有意思、好用的 Chrome 扩展？ -知乎](https://www.zhihu.com/question/23228162#answer-28057391)
-* [Dribbble New Tab](https://chrome.google.com/webstore/detail/dribbble-new-tab/hmhjbefkpednjogghoibpejdmemkinbn)
+[golang implementation of the EOS protocol](https://github.com/eosspark/eos-go)
 
-    新建 tab 时，显示 dribbble 上的精选作品。
+# 算法
 
-## Other blogs
+[MoreWindows-算法](https://me.csdn.net/MoreWindows)
 
-- [COLORFUL xiaoa](http://www.xiaoa.name/)
+# Flutter
 
-* [进击的马斯特 http://pinkyjie.com/](http://pinkyjie.com/)
+[《Flutter实战》电子书](https://github.com/flutterchina/flutter-in-action)
 
-    马斯特，87年生人，爱溜冰的码农。技术： Javascript、Python、Mac、iOS
+# Java
 
-* [Jerry Qu](https://imququ.com/)
+[chenssy-Java](https://blog.csdn.net/chenssy)
 
-    JerryQu，奇虎 360，前端开发，前百度前端。
 
-* [码志 https://mazhuang.org/](https://mazhuang.org/)
 
-    我是马壮，码而生，码而立。就职sogou。
+# JS资料
 
-* [小胡子哥 http://www.barretlee.com/](http://www.barretlee.com/)
+[阮一峰ES6](http://es6.ruanyifeng.com/?search=as&x=0&y=0)
 
-    李靖，阿里巴巴。
+# VSCode插件
 
-* [Xcat Liu http://blog.xcatliu.com/](http://blog.xcatliu.com/)
+[命名](https://unbug.github.io/codelf/)
 
-    Microsoft Software Engineer II, Meituan Senior Front-End Engineer
+# 工具
 
-* [极限前端 http://ouvens.github.io/](http://ouvens.github.io/)
+[在线代码](https://paste.ubuntu.com)
 
-    Ouvenzhang, 前端工程师，对前端领域的技术知识具有较高的职业能力和探究精神。对响应式页面设计、工程构建组件化、mv*设计实现、前端优化、ES6开发体系等有深入的研究与项目实践。来自腾讯科技。
+[Go文件在线运行](https://wide.b3log.org/playground/309ba15c7e2cde23076852f21838ac0f.go)
 
-* [凳子_Joinery 邓智容  http://www.dengzhr.com/](http://www.dengzhr.com/)
+[Go文件在线运行](https://play.golang.org/)
 
-* [赵达的个人网站 腾讯高级前端开发工程师](http://zhaoda.net/)
+[GithubGist](http://ruikye.com/2014/08/30/github-gist/)
 
-* [Randy](http://djyde.github.io/)
+[在线进制转换](http://tool.oschina.net/hexconvert)
 
-    95年出生的全栈。卢涛南，英文名 Randy，用 djyde 这个ID混迹于网络。
+[font awesome](https://fontawesome.com/start)
 
-* [JS前端开发群月报 -豪情等人维护](http://www.kancloud.cn/jsfront/month/82796)
+[ASCII值](http://tool.oschina.net/commons?type=4)
 
-## 交互设计相关
+# 刷题网站
 
-- [Framer](https://framerjs.com/)
+[知乎答案](https://www.zhihu.com/question/24964987)
 
-    Design the impossible with Framer
+[牛客网](https://www.nowcoder.com/job/center)
 
-- [FLINTO](https://www.flinto.com/)
+[剑指Offer](https://link.zhihu.com/?target=https%3A//www.nowcoder.com/ta/coding-interviews)
 
-    App Prototyping Tools for Designers
+[leetcode在线编程](https://link.zhihu.com/?target=https%3A//www.nowcoder.com/ta/leetcode)
 
-- [Principle](http://principleformac.com/)
+# Blog
 
-    Animate Your Ideas, Design Better Apps
-
-- [https://gyrosco.pe/](https://gyrosco.pe/)
-
-    首页的卡片翻动效果非常赞。
-
-## Comments
-
-{% include comments.html %}
+[go-blog](https://github.com/b3log/pipe)
