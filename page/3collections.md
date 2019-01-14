@@ -62,6 +62,18 @@ type: page
 
 [httprouter](https://github.com/julienschmidt/httprouter)
 
+## 共识
+
+[dragonboat](https://github.com/lni)
+
+## 设计模式
+
+[senghoo/golang-design-pattern](https://github.com/senghoo/golang-design-pattern)
+
+[golang-design-patterns](https://github.com/svett/golang-design-patterns)
+
+[HCLAC/DesignPattern](https://github.com/HCLAC/DesignPattern)
+
 # 缓存
 
 [go-cache](https://github.com/patrickmn/go-cache/blob/master/README.md)
