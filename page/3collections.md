@@ -30,6 +30,12 @@ type: page
 
 * [glot](https://github.com/Arafatk/glot)
 
+* [**go-echarts**](https://github.com/chenjiandongx/go-echarts)
+
+  ![image-20190215114307297](https://ws2.sinaimg.cn/large/006tKfTcly1g06yloy7n6j312o0lkmz2.jpg)
+
+  [IM](https://github.com/tinode/chat)
+
 ## 游戏
 
 * [GoBoy](https://github.com/Humpheh/goboy)
@@ -56,7 +62,6 @@ type: page
 
   go command line option parser 
 
-* 
 
 ## HTTP
 
@@ -74,11 +79,17 @@ type: page
 
 [HCLAC/DesignPattern](https://github.com/HCLAC/DesignPattern)
 
+## WebSocket
+
+[1m-go-websockets](https://github.com/eranyanay/1m-go-websockets)
+
 # 缓存
 
 [go-cache](https://github.com/patrickmn/go-cache/blob/master/README.md)
 
-## 数据库
+[lru](https://github.com/hashicorp/golang-lru/tree/master/simplelru)
+
+# 数据库
 
 [**prometheus**](https://github.com/prometheus/prometheus)
 
@@ -105,6 +116,12 @@ Structured, pluggable logging for Go.
 [xclient](https://xclient.info/)
 
 # GO 资料
+
+[Go2编程指南](https://github.com/chai2010/go2-book?utm_source=gold_browser_extension)
+
+[各语言设计模式](https://github.com/DovAmir/awesome-design-patterns)
+
+[go设计模式](https://github.com/tmrts/go-patterns)
 
 [青云](https://www.kancloud.cn/itfanr/go-by-example/81679)
 
@@ -160,7 +177,37 @@ Structured, pluggable logging for Go.
 
 [IMtoken开源钱包](https://github.com/consenlabs)
 
+# 以太坊结构化
+
+http://chenzhenianqing.com/articles/1566.html
+
+[凤凰牌老熊](http://doc.cocolian.cn/)
+
+[parity](https://github.com/paritytech/parity-ethereum)
+
+[toml](https://www.tiny-calf.com/2018/06/29/20180629-Parity%E6%90%AD%E5%BB%BA%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%8A%82%E7%82%B9/)
+
+https://www.jianshu.com/p/669b031c9637
+
+[以太坊分析](https://stevenocean.github.io/2018/03/17/go-ethereum-source-analysize-1.html)
+
 # 以太坊资料
+
+[以太坊wiki](https://github.com/ethereum/go-ethereum/wiki)
+
+[深入ethereum源码](http://qjpcpu.github.io/blog/2018/02/24/shen-ru-ethereumyuan-ma-cong-qu-kuai-tou-kan-gong-shi-wa-kuang/#hashimoto)
+
+[以太坊源码分析](http://lessisbetter.site/2018/06/22/ethereum-code-consensus-3/)
+
+[以太坊源代码分析](https://blog.csdn.net/teaspring/article/details/78050274)
+
+[BFT Consensus](https://github.com/tendermint/tendermint)
+
+[博客园](http://www.cnblogs.com/Evsward/tag/%E4%BB%A5%E5%A4%AA%E5%9D%8A/)
+
+[go操作以太坊](https://goethereumbook.org/zh/client-setup/)
+
+[以太坊黄皮书解析](https://yuan1028.github.io/ethereum-yellow-paper/)
 
 [精通以太坊 （中文版）](https://github.com/inoutcode/ethereum_book)
 
@@ -208,11 +255,17 @@ Structured, pluggable logging for Go.
 
 # 算法
 
+[小吴算法图解](https://github.com/MisterBooo/LeetCodeAnimation)
+
 [MoreWindows-算法](https://me.csdn.net/MoreWindows)
 
 # Flutter
 
 [《Flutter实战》电子书](https://github.com/flutterchina/flutter-in-action)
+
+# 小技巧
+
+[访问外网](https://blog.csdn.net/kongxx/article/details/86178364)
 
 # Java
 
@@ -227,6 +280,10 @@ Structured, pluggable logging for Go.
 # VSCode插件
 
 [命名](https://unbug.github.io/codelf/)
+
+# 代码规范
+
+[codelf](https://unbug.github.io/codelf)
 
 # 工具
 
@@ -244,6 +301,10 @@ Structured, pluggable logging for Go.
 
 [ASCII值](http://tool.oschina.net/commons?type=4)
 
+[在线hash](https://1024tools.com/hash)
+
+[在线解析json](https://www.bejson.com/)
+
 # 刷题网站
 
 [知乎答案](https://www.zhihu.com/question/24964987)
@@ -257,3 +318,7 @@ Structured, pluggable logging for Go.
 # Blog
 
 [go-blog](https://github.com/b3log/pipe)
+
+# 容器
+
+[k8s](https://kubernetes.io/zh/docs/concepts/overview/what-is-kubernetes/)
