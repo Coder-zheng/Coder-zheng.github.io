@@ -107,9 +107,9 @@ Structured, pluggable logging for Go.
 
 ## Format
 
-[**go-humanize**](https://github.com/dustin/go-humanize)
+[go-humanize](https://github.com/dustin/go-humanize)
 
-[table]https://github.com/modood/table
+[table](https://github.com/modood/table)
 
 # MAC
 
@@ -117,9 +117,23 @@ Structured, pluggable logging for Go.
 
 # GO 资料
 
-[Go2编程指南](https://github.com/chai2010/go2-book?utm_source=gold_browser_extension)
+[TDD](https://studygolang.gitbook.io/learn-go-with-tests/go-ji-chu/select)
+
+[snippets](https://github.com/Microsoft/vscode-go/blob/master/snippets/go.json)
+
+[A Library of Go Snippets](https://golangcode.com/)
+
+[go夜读](https://github.com/developer-learning/learning-golang)
+
+[exercism练习](https://exercism.io)
+
+[go十句箴言](https://go-proverbs.github.io )
+
+[go2编程指南](https://github.com/chai2010/go2-book?utm_source=gold_browser_extension)
 
 [各语言设计模式](https://github.com/DovAmir/awesome-design-patterns)
+
+[go中文 标准库](http://cngolib.com/encoding-xml.html)
 
 [go设计模式](https://github.com/tmrts/go-patterns)
 
@@ -143,7 +157,7 @@ Structured, pluggable logging for Go.
 
 [茶歇驿站](https://maiyang.me/)
 
-## P2P
+# P2P
 
 [馬克](https://zfly9.blogspot.com/)
 
@@ -157,17 +171,17 @@ Structured, pluggable logging for Go.
 
 # Tracker
 
-[**trackerslist**](https://github.com/ngosang/trackerslist)
+[trackerslist](https://github.com/ngosang/trackerslist)
 
 [Bolt](http://boltdb.cn/)
 
 # YAML
 
-[廖雪峰][http://www.ruanyifeng.com/blog/2016/07/yaml.html]
+[廖雪峰](http://www.ruanyifeng.com/blog/2016/07/yaml.html)
 
 # 共识
 
-[**dpos-pbft**](https://github.com/septemhill/dpos-pbft)
+[dpos-pbft](https://github.com/septemhill/dpos-pbft)
 
 # 比特币
 
@@ -241,6 +255,8 @@ https://www.jianshu.com/p/669b031c9637
 
 [以太坊网络状态](https://ethstats.net/)
 
+[以太坊钱包](https://github.com/ethereum/mist)
+
 # Fabric
 
 [梧桐树](http://wutongtree.github.io/translations/Next-Consensus-Architecture-Proposal_zh)
@@ -265,9 +281,13 @@ https://www.jianshu.com/p/669b031c9637
 
 # 小技巧
 
+
+
 [访问外网](https://blog.csdn.net/kongxx/article/details/86178364)
 
 # Java
+
+
 
 [chenssy-Java](https://blog.csdn.net/chenssy)
 
@@ -275,13 +295,19 @@ https://www.jianshu.com/p/669b031c9637
 
 # JS资料
 
+
+
 [阮一峰ES6](http://es6.ruanyifeng.com/?search=as&x=0&y=0)
 
 # VSCode插件
 
+
+
 [命名](https://unbug.github.io/codelf/)
 
 # 代码规范
+
+
 
 [codelf](https://unbug.github.io/codelf)
 
@@ -307,6 +333,8 @@ https://www.jianshu.com/p/669b031c9637
 
 # 刷题网站
 
+[exercism](https://exercism.io/my/tracks)
+
 [知乎答案](https://www.zhihu.com/question/24964987)
 
 [牛客网](https://www.nowcoder.com/job/center)
@@ -318,7 +346,3 @@ https://www.jianshu.com/p/669b031c9637
 # Blog
 
 [go-blog](https://github.com/b3log/pipe)
-
-# 容器
-
-[k8s](https://kubernetes.io/zh/docs/concepts/overview/what-is-kubernetes/)
