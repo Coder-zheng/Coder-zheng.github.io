@@ -3,19 +3,33 @@ package main
 import (
 	"io/ioutil"
 	"log"
-	"strconv"
+	"os"
+	"time"
 )
 
-const (
-	date  = "2019-4"
-	count = 28
-)
+const DATE_FORMAT = "2006-01-02"
 
 func main() {
-	buffer, err := ioutil.ReadFile("./template")
-	for index := 1; index <= count; index++ {
-		err = ioutil.WriteFile(`./`+date+`/`+date+`-`+strconv.Itoa(index)+`.md`, buffer, 0644)
-	}
+	name := os.Args[1]
+	categories := os.Args[2]
+	tags := os.Args[3]
+
+	buffer := []byte(`---
+
+layout: post
+title: "` + name + `"
+categories: ` + categories + `
+tags:  ` + tags + `
+author: ant
+
+---
+
+* content
+{:toc}
+
+`)
+	now := time.Now().Format(DATE_FORMAT)
+	err := ioutil.WriteFile(now+`-`+name+`.md`, buffer, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}

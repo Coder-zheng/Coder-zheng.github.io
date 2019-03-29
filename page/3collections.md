@@ -117,6 +117,8 @@ Structured, pluggable logging for Go.
 
 # GO 资料
 
+[看云](https://www.kancloud.cn/itfanr/go-by-example/81647)
+
 [TDD](https://studygolang.gitbook.io/learn-go-with-tests/go-ji-chu/select)
 
 [snippets](https://github.com/Microsoft/vscode-go/blob/master/snippets/go.json)
