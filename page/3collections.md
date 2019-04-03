@@ -83,6 +83,10 @@ type: page
 
 [1m-go-websockets](https://github.com/eranyanay/1m-go-websockets)
 
+## erweima
+
+<https://github.com/skip2/go-qrcode>
+
 # 缓存
 
 [go-cache](https://github.com/patrickmn/go-cache/blob/master/README.md)
