@@ -38,7 +38,7 @@ author: ant
 
 下面都拿github举例子了，毕竟大家都在用😁
 
-#### 在github上的项目配置SSH Key中的public key
+### 在github上的项目配置SSH Key中的public key
 
 在github上创建一个repository后，在Settings中会找到如下项：
 
@@ -48,7 +48,7 @@ author: ant
 
 对于public key的配置就是这么简单，但是要注意，一个public key只能给一个repository用。
 
-#### 在Mac上配置SSH Key中的private key
+### 在Mac上配置SSH Key中的private key
 
 当往github的项目上提交代码时，github需要知道你电脑上有没有和那些Deploy keys中某个public key配对的private key。接下来就是配置怎样找到这个private key。
 
@@ -121,78 +121,119 @@ $ ssh -T git@TestSSH.github.com
 
 敲一下回车，如下出现下面的提示就连接成功了：
 
+```sh
 Hi shinancao/TestSSH! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
 一定要注意哦，帐号名称/项目名称，如果这个key没有连接成功，它有可能提示的是别的key的。
 
-修改github项目配置，使项目本身能关联到使用的key。
+* 修改github项目配置，使项目本身能关联到使用的key。
+
 如果你在之前已经把项目clone到本地了，有两种解决方法：
 
 (1) 打开项目目录/.git/config，将[remote “origin”]中的url中的github.com修改为TestSSH.github.com，就是你在第4步中给Host取的那个名字。如下：
 
-remote "origin"]
-	url = git@TestSSH.github.com:shinancao/TestSSH.git
+```sh
+remote "origin"
+	url =git@TestSSH.github.com:shinancao/TestSSH.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+```
+
 (2) 也可以在提交时修改
 
+```sh
 $ git remote rm origin
 $ git remote add origin git@TestSSH.github.com:shinancao/TestSSH.git
+```
+
 如果还没有clone到本地，则在clone时可以直接将github.com改为TestSSH.github.com，如下：
 
+```sh
 $ git clone git@TestSSH.github.com:shinancao/TestSSH.git
+```
+
 到此，就可以Happy Coding啦😄，可以push一次试试~
 
 ## github用户设置中的SSH Key
 
 细心的小伙伴可能已经注意到了，在用户设置中也有一个SSH Keys的配置，这块添加的key是来设置一个电脑上默认使用的key的。每创建一个repository都弄一次Deploy Keys是挺麻烦的。
 
-
+![image-20190403160322991](https://ws3.sinaimg.cn/large/006tKfTcly1g1pi68j1efj30h204stab.jpg)
 
 github默认找的是id_rsa这对密钥，所以此处要添加到github上的就是id_rsa.pub的内容。这对密钥一样存在于~/.ssh中，而且无需在config中设置。
 
 先看一下id_rsa是否已经在ssh-agent中了：
 
+```sh
 $ ssh-add -l
+```
+
 如果不在要添加进去：
 
+```sh
 $ ssh-add -K ~/.ssh/id_rsa
+```
+
 测试是否能连接成功：
 
+```sh
 $ ssh -T git@github.com
+```
+
 敲一下回车，如果结果如下则成功了：
 
+```sh
 Hi shinancao! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
 注意哦，这里只有用户名！没有跟着项目名了~ 配置完成后，就是可以轻松的创建repository，然后clone到本地，自由自在的往上面push代码啦~
 
 ## 配置邮箱和用户名
 
-配置邮箱和用户名是用来干啥的呢？就是记录每一次commit的用户和与之关联的邮箱。可以在电脑上配置一个全局的user.name和user.email，也可以针对不同的repository配置不同的user.name和user.email。
+配置邮箱和用户名是用来干啥的呢？就是记录每一次 commit 的用户和与之关联的邮箱。可以在电脑上配置一个全局的 user.name 和 user.email ，也可以针对不同的 repository 配置不同的 user.name 和 user.email 。
 
+![image-20190403160504070](https://ws2.sinaimg.cn/large/006tKfTcly1g1pi7zcdjrj30gq054gnv.jpg)
 
+配置全局的 user.name 和 user.email ：
 
-配置全局的user.name和user.email：
-
+```sh
 $ git config --global user.name "your name"
 $ git config --global user.email "your email"
+```
+
 查看结果：
 
+```sh
 $ git config --global user.name
 $ git config --global user.email
-位置在~/.gitconfig文件中。
+```
+
+位置在 ~/.gitconfig 文件中。
 
 在做这块的测试时，我发现了一个很有意思的事情，对于github，即使我随意设置了一个全局的name，但最后提交完，显示的还是我github的用户名。当取消了global的设置，只针对某个repository设置，则github上可以显示我设置的了。
 
 如果同时设置了全局的，和针对某个repository的，则优先使用全局的。那要单独给每个repository设置，要先取消全局的设置。
 
+```sh
 $ git config --global --unset user.name
 $ git config --global --unset user.email
+```
+
 然后进入到项目目录下设置：
 
+```sh
 $ git config user.email "your name"
 $ git config user.email "your email"
+```
+
 查看结果：
 
+```sh
 $ git config user.name
 $ git config user.email
+```
+
+
 位置在项目目录/.git/config文件中。
 
 ## HTTPS的方式提交代码
