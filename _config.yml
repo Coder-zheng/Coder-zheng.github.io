@@ -9,7 +9,7 @@
 title: Evolution Ant
 brief-intro: evolution
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lixianghe.com" # the base hostname & protocol for your site
+url: "http://lixianghe.com" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
