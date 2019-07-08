@@ -1,5 +1,9 @@
 ---
-layout: page
+
+
+
+
+opelayout: page
 title: Collections
 permalink: /collection/
 icon: bookmark
@@ -15,12 +19,15 @@ type: page
 ### UI&client
 
 | name                                                         | description                                                  |      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| ------------------------------------------------------------ | :----------------------------------------------------------- | ---- |
+| [gophers](<https://github.com/egonelbre/gophers>)            |                                                              |      |
+| [free-gophers-pack](<https://github.com/MariaLetta/free-gophers-pack>) | ✨ This pack of 100+ gopher pictures and elements...          |      |
 | [cli](https://github.com/urfave/cli)                         | A simple, fast, and fun package for building command line apps in Go |      |
 | [lorca](https://github.com/zserge/lorca?utm_source=gold_browser_extension) | A very small library to build modern HTML5 desktop apps in Go. |      |
 | [go-eth](https://github.com/sc0vu/go-eth)                    | Test the usage of ethclient in go.                           |      |
 | [fyne](https://github.com/fyne-io/examples/)                 | Cross platform GUI in Go based on Material Design.           |      |
 | [go-echarts](https://github.com/chenjiandongx/go-echarts)    | 一个优雅的数据可视化库。                                     |      |
+| [pixel](<https://github.com/faiface/pixel>)                  | A hand-crafted 2D game library in Go                         |      |
 | [GoBoy](https://github.com/Humpheh/goboy)                    | Multi-platform Nintendo Game Boy Color emulator written in Go. |      |
 | [cobra](https://github.com/spf13/cobra)                      | A Commander for modern Go CLI interactions.                  |      |
 | [go-flags](https://github.com/jessevdk/go-flags)             | go command line option parser.                               |      |
@@ -30,14 +37,20 @@ type: page
 | [logrus](https://github.com/sirupsen/logrus)                 | Structured, pluggable logging for Go.                        |      |
 | [go-humanize](https://github.com/dustin/go-humanize)         | Go Humans! (formatters for units to human friendly sizes) [https://godoc.org/github.com/dustin/g…](https://godoc.org/github.com/dustin/go-humanize) |      |
 | [table](https://github.com/modood/table)                     | Produces a string that represents slice data in a text table, inspired by gajus/table. |      |
+| [**go-perfbook**](<https://github.com/dgryski/go-perfbook/blob/master/performance-zh.md) | 本文档概述了编写高性能Go代码的最佳实践。                     |      |
+| [goquery](<https://github.com/PuerkitoBio/goquery>)          | A little like that j-thing, only in Go.                      |      |
+| [ftp serve](https://github.com/goftp/server)                 | A FTP server framework written by Golang                     |      |
+| [ftp client](https://github.com/jlaffaye/ftp)                | FTP client package for Go                                    |      |
 
 ### memory&storage
 
 | name                                                         | description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [groupcache](https://github.com/golang/groupcache)           | groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases. |
 | [go-cache](https://github.com/patrickmn/go-cache/blob/master/README.md) | An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.<https://patrickmn.com/projects/go-cache/> |
 | [golang-lru](<https://github.com/hashicorp/golang-lru>)      | Golang LRU cache                                             |
 | [prometheus](https://github.com/prometheus/prometheus)       | The Prometheus monitoring system and time series database.   |
+| [gameboy](https://github.com/HFO4/gameboy.live)              | 🕹️ A basic gameboy emulator with terminal "Cloud Gaming" support [http://gameboy.live](http://gameboy.live/) |
 
 ### DesignPattern
 
@@ -46,6 +59,7 @@ type: page
 | [golang-design-pattern](https://github.com/senghoo/golang-design-pattern) | 设计模式 Golang实现－《研磨设计模式》读书笔记                |
 | [DesignPattern](https://github.com/HCLAC/DesignPattern)      | Use GO language to achieve 23 design patterns                |
 | [golang-design-patterns](https://github.com/svett/golang-design-patterns) | A Gang of Gophers (originally Gang of Four) design patterns written in Golang |
+| [Kratos](<https://github.com/bilibili/kratos>)               | Kratos是bilibili开源的一套Go微服务框架，包含大量微服务相关框架及工具。 |
 
 ## StudyBook
 
@@ -98,6 +112,8 @@ type: page
 
 | title                                                        |
 | ------------------------------------------------------------ |
+| [Go42](<https://github.com/ffhelicopter/Go42/>)              |
+| [How to be a Programmer 中文版](<https://ahangchen.gitbooks.io/how-to-be-a-programmer-cn/content/>) |
 | [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang) |
 | [雨痕的《Go 学习笔记》，正在编写第六版，可于微博下载预览版，或关注公众号(2018-05-07)](https://github.com/qyuhen/book) |
 | [Go 语言圣经](https://www.gitbook.com/book/wizardforcel/gopl-zh/details) / [Go 语言圣经](https://github.com/golang-china/gopl-zh) |
@@ -224,6 +240,8 @@ type: page
 | Bookmarks                                                    | 好用的书签                                                   |
 | Bracket Pair Colorizer                                       | 多种颜色括号，结构清晰明了                                   |
 | Code Runner                                                  | 一键运行代码                                                 |
+| [Toggle between terminal and editor focus](<http://landcareweb.com/questions/1443/zai-visual-studio-codezhong-qie-huan-bian-ji-qi-he-ji-cheng-zhong-duan-zhi-jian-de-jiao-dian>) |                                                              |
+| [gomodifytags](<https://github.com/fatih/gomodifytags>)      | Go tool to modify struct field tags                          |
 
 # Blockchain
 
@@ -231,11 +249,15 @@ type: page
 
 | name                                                         | description                                                  |      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [EthFansWiki](https://github.com/EthFans/wiki/wiki)          | wiki                                                         |      |
 | [Dragonboat](https://github.com/lni)                         | A feature complete and high performance multi-group Raft library in Go. |      |
 | [Awesome-blockchain-articles](<https://github.com/hylinux1024/awesome-blockchain-articles>) | A collection of awesome blockchain articles. Good learning resources about blockchain. |      |
 | [Blockchain_go](https://github.com/Jeiwan/blockchain_go)     | A simplified blockchain implementation in Golang             |      |
 | [IMtoken 开源钱包](https://github.com/consenlabs)            |                                                              |      |
 | [Parity](https://github.com/paritytech/parity-ethereum)      |                                                              |      |
+| [web3中文文档](<http://cw.hubwiz.com/card/c/web3.js-1.0/>)   |                                                              |      |
+| [web3英文](https://web3js.readthedocs.io/en/1.0/getting-started.html) |                                                              |      |
+| [**btcd**](https://github.com/btcsuite/btcd)                 | An alternative full node bitcoin implementation written in Go (golang) |      |
 
 ## Blog
 
@@ -243,7 +265,8 @@ type: page
 
 | Name                                                         | description |
 | ------------------------------------------------------------ | ----------- |
-| [飞久](https://blog.csdn.net/turkeycock)                     |             |
+| [用Go来做以太坊开发](https://goethereumbook.org/zh/)         |             |
+| [飞久](https://blog.csdn.net/TurkeyCock/article/detaiyels/88365146) |             |
 | [ZtesoftCS以太坊源码分析](https://github.com/ZtesoftCS/go-ethereum-code-analysis) |             |
 | [以太坊wiki](https://github.com/ethereum/go-ethereum/wiki)   |             |
 | [以太坊黄皮书解析](https://yuan1028.github.io/ethereum-yellow-paper/) |             |
@@ -257,6 +280,7 @@ type: page
 | [BFT Consensus](https://github.com/tendermint/tendermint)    |             |
 | [远航以太坊源码分析](http://blog.luoyuanhang.com/)           |             |
 | [区块的持久化之BoltDB](https://www.jianshu.com/p/b86a69892990?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation) |             |
+| [以太坊修改 eth 命令](https://lilyssh.cn/blockchain/geth-web3-update-command/) |             |
 
 ### 以太坊交互
 
@@ -285,12 +309,73 @@ type: page
 
 # 工具
 
-| title                                                   |      |
-| ------------------------------------------------------- | ---- |
-| [Ubuntu 提供的在线代码](https://paste.ubuntu.com)       |      |
-| [Go文件在线运行](https://play.golang.org/)              |      |
-| [GithubGist](http://ruikye.com/2014/08/30/github-gist/) |      |
-| [在线进制转换](http://tool.oschina.net/hexconvert)      |      |
-| [ASCII值](http://tool.oschina.net/commons?type=4)       |      |
-| [在线计算 Hash](https://1024tools.com/hash)             |      |
-| [在线解析 Ison](https://www.bejson.com/)                |      |
+| title                                                        |      |
+| ------------------------------------------------------------ | ---- |
+| [Ubuntu 提供的在线代码](https://paste.ubuntu.com)            |      |
+| [Go文件在线运行](https://play.golang.org/)                   |      |
+| [GithubGist](http://ruikye.com/2014/08/30/github-gist/)      |      |
+| [在线进制转换](<https://www.bejson.com/convert/ox2str/>)     |      |
+| [ASCII值](http://tool.oschina.net/commons?type=4)            |      |
+| [在线计算 Hash](https://1024tools.com/hash)                  |      |
+| [在线解析 Ison](https://www.bejson.com/)                     |      |
+| [camo 免费图床](<https://github.com/atmos/camo>)             |      |
+| [在线图床](<https://sm.ms/>)                                 |      |
+| [国内顶尖团队的开源地址](<https://github.com/niezhiyang/open_source_team>) |      |
+| [lottiefile](<https://lottiefiles.com/featured>)             |      |
+| [lottiefileeditor](<https://editor.lottiefiles.com/>)        |      |
+| [图片转像素图](<https://chuiliu.github.io/demo/pixel/>)      |      |
+| [scratch github](<https://github.com/zhengxiangqi/Scratch>)  |      |
+| [jekyll tips](https://crispgm.com/page/48-tips-for-jekyll-you-should-know.html) |      |
+| [图片转乐高](https://github.com/JuanPotato/Legofy)           |      |
+
+
+
+# Mac
+
+[开发效率提升：Mac生产力工具链推荐](<https://github.com/Louiszhai/tool>)
+
+[autojump](<https://github.com/wting/autojump>)
+
+[tmux](<http://louiszhai.github.io/2017/09/30/tmux/>)
+
+[hyperswitch](<https://bahoom.com/hyperswitch>)
+
+[KeyCastr](https://wxnacy.com/2018/12/11/mac-KeyCastr/)
+
+[vanilla : 隐藏菜单栏](<https://matthewpalmer.net/vanilla/>)
+
+[PicGo：图床](https://github.com/Molunerfinn/PicGo)
+
+# Aflred
+
+[有道](https://github.com/whyliam/whyliam.workflows.youdao)
+
+
+
+# Github
+
+| Title                                                        | desc                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [all-contributors](https://github.com/all-contributors/all-contributors) | ✨ Recognize all contributors, not just the ones who push code ✨ |
+| [auxpi](https://github.com/aimerforreimu/auxpi/projects)     | 🍭 集合多家 API 的新一代图床 [https://test.demo-1s.com](https://test.demo-1s.com/) |
+| [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) | Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路） |
+| [life of game](<https://github.com/dawn110110/conway_game_of_life>) | conway's game of life ,python version. using Tkinter         |
+| [life of game online](<https://github.com/myst729>)          |                                                              |
+| [兰顿蚂蚁 online](<http://myst729.github.io/ant/>)           |                                                              |
+| [golly](<http://golly.sourceforge.net/>)                     | 各种开源游戏                                                 |
+| [](https://bitstorm.org/gameoflife/)                         |                                                              |
+| [](https://people.kth.se/~gunnarj/LIFE/lifegame5w.html)      |                                                              |
+| [远程工作](https://github.com/coding-daily/awesome-freelancer) | 自由职业者&远程工作者&独立开发者&开源工作者@生存指南         |
+|                                                              |                                                              |
+
+# 个人成长文章
+
+[如何成为黑客](<https://github.com/zer4tul/hacker-howto#believe1>)
+
+[Teach Yourself Programming in Ten Years](http://www.norvig.com/21-days.html)  [中文版](<https://zhuanlan.zhihu.com/p/30742986>)
+
+# golang 日常问题
+
+[交叉编译](https://www.dllhook.com/post/244.html)
+
+后台运行：chmod +x 可执行文件 nohup ./可执行文件 & 
